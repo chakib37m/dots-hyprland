@@ -75,6 +75,17 @@ const Utilities = () => Box({
     hpack: 'center',
     className: 'spacing-h-4',
     children: [
+        
+        UtilButton({
+            name: getString('Change Wallpaper'), icon: 'refresh', onClicked: () => {
+            Utils.execAsync(`${App.configDir}/scripts/wp.sh`)
+            .catch(print)
+            }
+        }),
+
+
+
+
         UtilButton({
             name: getString('Screen snip'), icon: 'screenshot_region', onClicked: () => {
                 Utils.execAsync(`${App.configDir}/scripts/grimblast.sh copy area`)
