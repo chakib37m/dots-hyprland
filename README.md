@@ -1,3 +1,19 @@
+<div align="center"><h1> Wallpaper changing script from Wallheaven.cc, if you already have this theme just change these files here :</h1>
+<h2>/home/chakib/.config/ags/scripts/wp.sh ===> wallpaper changing + apply color generation script
+<br>
+/home/chakib/.config/ags/modules/bar/normal/system.js ===> Adds the button for fetching and changing wallpapers online
+</h2>
+
+
+
+
+
+
+
+
+
+
+
 <div align="center">
     <h1>【 end_4's Hyprland dotfiles 】</h1>
     <h3></h3>
